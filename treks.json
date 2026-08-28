@@ -1,0 +1,312 @@
+[
+  {
+    "title": "Kedarkantha",
+    "location": "Uttarkashi district, Uttarakhand",
+    "altitude": "3,800 m",
+    "difficulty": "Difficult",
+    "description": "Popular Himalayan winter snow trek offering 360-degree views of prominent Himalayan peaks.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Kalsubai Peak",
+    "location": "Ahilyanagar district, Maharashtra",
+    "altitude": "1,646 m",
+    "difficulty": "Moderate",
+    "description": "Highest peak in Maharashtra, equipped with steel ladders along steep rock faces.",
+    "coverImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Ghanchakkar",
+    "location": "Ahilyanagar district, Maharashtra",
+    "altitude": "1,532 m",
+    "difficulty": "Moderate",
+    "description": "One of the highest peaks in the Kalsubai region, known for dense jungle trails and rugged terrain.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Harishchandragad",
+    "location": "Ahilyanagar district, Maharashtra",
+    "altitude": "1,422 m",
+    "difficulty": "Moderate",
+    "description": "Famous for the massive Kokankada cliff, Kedareshwar Cave with its massive Shivlinga, and Taramati Peak.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Rajgad Fort",
+    "location": "Pune district, Maharashtra",
+    "altitude": "1,376 m",
+    "difficulty": "Moderate to Difficult",
+    "description": "Former Maratha capital for 26 years, featuring the Padmavati, Sanjeevani, and Suvela Machis alongside Padmavati Temple.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Sinhagad Fort",
+    "location": "Pune district, Maharashtra",
+    "altitude": "1,312 m",
+    "difficulty": "Easy to Moderate",
+    "description": "Historically rich fort famous for Tanaji Malusare's battle, Pune city views, and pitla-bhakri stops.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Ratangad",
+    "location": "Ahilyanagar district, Maharashtra",
+    "altitude": "1,297 m",
+    "difficulty": "Moderate",
+    "description": "Known for its natural rock cavity called Nedhe (Eye of the Needle) and views of Bhandardara lake.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Hadsar Fort",
+    "location": "Pune district, Maharashtra",
+    "altitude": "1,180 m",
+    "difficulty": "Moderate",
+    "description": "Ancient hill fort near Junnar featuring rock-hewn steps pass, water cisterns, and a Shivling temple.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Bhairavgad Shirpunje",
+    "location": "Ahilyanagar district, Maharashtra",
+    "altitude": "1,145 m",
+    "difficulty": "Moderate",
+    "description": "Situated near Shirpunje village in the Akole region, surrounded by deep forests and river valleys.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Harihar Fort",
+    "location": "Nashik district, Maharashtra",
+    "altitude": "1,120 m",
+    "difficulty": "Moderate to Difficult",
+    "description": "Renowned for its near-vertical 80-degree rock-cut steps leading up to the main entrance.",
+    "coverImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Pratapgad",
+    "location": "Satara district, Maharashtra",
+    "altitude": "1,080 m",
+    "difficulty": "Easy",
+    "description": "Historic fort near Mahabaleshwar, site of the famous battle between Shivaji Maharaj and Afzal Khan.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Shivneri Fort",
+    "location": "Pune district, Maharashtra",
+    "altitude": "1,067 m",
+    "difficulty": "Easy",
+    "description": "Birthplace of Chhatrapati Shivaji Maharaj, equipped with seven fortified gates and Badami Talav.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Dubergad",
+    "location": "Nashik district, Maharashtra",
+    "altitude": "1,000 m",
+    "difficulty": "Easy to Moderate",
+    "description": "Lesser-known hill fort near Sinnar featuring water cisterns, plateau pastures, and ruined structures.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Ankai-Tankai Forts",
+    "location": "Nashik district, Maharashtra",
+    "altitude": "961 m",
+    "difficulty": "Easy to Moderate",
+    "description": "Twin hill forts connected by a pass, famous for ancient Jain and Hindu rock-cut caves at their base.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Bhairavgad (Moroshi)",
+    "location": "Thane district, Maharashtra",
+    "altitude": "864 m",
+    "difficulty": "Difficult / Technical",
+    "description": "Adrenaline-heavy pinnacle trek requiring ropes to navigate exposed, worn rock-cut steps.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Mahuli Fort",
+    "location": "Thane district, Maharashtra",
+    "altitude": "853 m",
+    "difficulty": "Moderate to Difficult",
+    "description": "Highest point in Thane district, popular among rock climbers for its towering pinnacle clusters.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Naneghat",
+    "location": "Pune / Thane border, Maharashtra",
+    "altitude": "838 m",
+    "difficulty": "Easy to Moderate",
+    "description": "Ancient trade route mountain pass famous for Brahmi script inscriptions and a stone toll collection pot.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Rajmachi Fort",
+    "location": "Pune district, Maharashtra",
+    "altitude": "826 m",
+    "difficulty": "Easy to Moderate",
+    "description": "Comprises twin fortress citadels (Shrivardhan and Manaranjan) overlooking the historical Borghat pass.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Raigad Fort",
+    "location": "Raigad district, Maharashtra",
+    "altitude": "820 m",
+    "difficulty": "Easy to Moderate",
+    "description": "Capital of the Maratha Empire under Chhatrapati Shivaji Maharaj, featuring the Maha Darwaja and Hirkani Buruj.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Duke's Nose (Nagphani)",
+    "location": "Pune district, Maharashtra",
+    "altitude": "800 m",
+    "difficulty": "Moderate",
+    "description": "Distinct cliff near Khandala resembling a cobra's hood or the Duke of Wellington's nose.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Malang Gad",
+    "location": "Thane district, Maharashtra",
+    "altitude": "790 m",
+    "difficulty": "Moderate",
+    "description": "Hill fort featuring three levels, famous for the shrine of Haji Malang Baba at the base plateau.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Prabalgad",
+    "location": "Raigad district, Maharashtra",
+    "altitude": "700 m",
+    "difficulty": "Moderate",
+    "description": "Massive flat-topped hill fort situated between Matheran and Panvel, adjacent to Kalavantin Durg.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Garbett Plateau",
+    "location": "Raigad district, Maharashtra",
+    "altitude": "700 m",
+    "difficulty": "Moderate",
+    "description": "Vast, lush green plateau stretch extending towards the southeast border of Matheran.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Kalavantin Durg",
+    "location": "Raigad district, Maharashtra",
+    "altitude": "685 m",
+    "difficulty": "Moderate to Thrilling",
+    "description": "Known for its iconic, steep hand-hewn steps winding around a pinnacle adjacent to Prabalgad.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Gorakhgad",
+    "location": "Thane district, Maharashtra",
+    "altitude": "655 m",
+    "difficulty": "Moderate to Difficult",
+    "description": "Small pinnacle fort with steep rock-cut steps, large caves, and views of Machindragad.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Peb Fort (Vikatgad)",
+    "location": "Raigad district, Maharashtra",
+    "altitude": "640 m",
+    "difficulty": "Moderate",
+    "description": "Offers ridge walks connecting to Matheran, featuring rock-cut caves and panoramic valley views.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Kothaligad (Peth Fort)",
+    "location": "Raigad district, Maharashtra",
+    "altitude": "469 m",
+    "difficulty": "Easy to Moderate",
+    "description": "Features a unique funnel-shaped internal spiral staircase carved directly inside the rock pinnacle.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Karnala Fort",
+    "location": "Raigad district, Maharashtra",
+    "altitude": "440 m",
+    "difficulty": "Easy to Moderate",
+    "description": "Located inside the Karnala Bird Sanctuary, marked by a distinct basalt thumbs-up pillar peak.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Sondai Fort",
+    "location": "Raigad district, Maharashtra",
+    "altitude": "365 m",
+    "difficulty": "Easy",
+    "description": "A minor watchtower fort near Karjat offering iron ladder climbs and views of Morbe Dam.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Devagiri (Daulatabad) Fort",
+    "location": "Chhatrapati Sambhajinagar district, Maharashtra",
+    "altitude": "200 m (Hill height)",
+    "difficulty": "Easy",
+    "description": "Formidably fortified hill fortress famous for its dark zigzag defense pass (Bhulbhulaiya) and Chand Minar.",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  },
+  {
+    "title": "Kalu Waterfall",
+    "location": "'God's Valley' near Malshej Ghat",
+    "altitude": "365 m at top",
+    "difficulty": "Moderate",
+    "description": "Kalu Waterfall is a magnificent 1,200-foot, five-tiered seasonal cascade located in the God's Valley near Malshej Ghat in Maharashtra,",
+    "coverImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+    "driveFolder": "",
+    "photos": []
+  }
+]

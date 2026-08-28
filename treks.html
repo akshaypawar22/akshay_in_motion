@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Treks | Akshay A Pawar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        emeraldDark: '#051f18',
+                        goldAccent: '#d4af37',
+                        goldHover: '#f3e5ab',
+                        cardBg: '#0b2b22'
+                    },
+                    fontFamily: {
+                        royal: ['Cinzel', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body
+    class="bg-emeraldDark text-slate-200 font-sans antialiased selection:bg-goldAccent selection:text-emeraldDark min-h-screen flex flex-col justify-between">
+
+    <nav
+        class="fixed w-full z-40 bg-emeraldDark/90 backdrop-blur-md border-b border-goldAccent/20 py-4 px-6 md:px-12 flex justify-between items-center">
+        <a href="index.html"
+            class="font-royal text-xl md:text-2xl font-bold text-goldAccent tracking-widest uppercase">Akshay A
+            Pawar</a>
+        <div class="hidden md:flex space-x-8 text-sm font-semibold tracking-wider">
+            <a href="index.html" class="hover:text-goldAccent transition">HOME</a>
+            <a href="treks.html" class="text-goldAccent transition">TREKS</a>
+            <a href="travel.html" class="hover:text-goldAccent transition">TRAVELS</a>
+            <a href="index.html#expeditions" class="hover:text-goldAccent transition">UPCOMING TRIPS</a>
+        </div>
+        <a href="index.html#expeditions"
+            class="px-5 py-2 border border-goldAccent text-goldAccent hover:bg-goldAccent hover:text-emeraldDark transition rounded-none text-xs tracking-widest font-royal uppercase">Join
+            Me</a>
+    </nav>
+
+    <section class="py-32 px-6 md:px-12 bg-emeraldDark/50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h1 class="font-royal text-4xl md:text-5xl text-goldAccent font-bold">Mountain Treks</h1>
+                <div class="h-0.5 w-24 bg-goldAccent mx-auto mt-3"></div>
+                <p class="text-slate-400 mt-4 max-w-lg mx-auto">Click any trek card to view the full photo gallery
+                    modal.</p>
+            </div>
+
+            <div id="trekGridContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            </div>
+        </div>
+    </section>
+
+    <div id="photoModal" class="fixed inset-0 z-50 bg-black/95 hidden flex-col justify-between p-6 overflow-y-auto">
+        <div class="flex justify-between items-center max-w-7xl mx-auto w-full border-b border-goldAccent/30 pb-4 mb-6">
+            <div>
+                <h3 id="modalTitle" class="font-royal text-2xl text-goldAccent font-bold">Trek Gallery</h3>
+                <p id="modalSub" class="text-xs text-slate-400 font-royal tracking-widest"></p>
+            </div>
+            <div class="flex items-center gap-4">
+                <a id="modalDriveBtn" href="#" target="_blank"
+                    class="hidden sm:flex border border-goldAccent/50 text-goldAccent px-4 py-2 text-xs font-royal uppercase hover:bg-goldAccent hover:text-emeraldDark transition items-center gap-2">
+                    <i class="fa-brands fa-google-drive"></i> Open Drive Folder
+                </a>
+                <button id="closeModal" class="text-slate-400 hover:text-goldAccent text-3xl font-bold">×</button>
+            </div>
+        </div>
+
+        <div id="modalGrid"
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-7xl mx-auto w-full my-auto">
+        </div>
+
+        <div class="text-center text-xs text-slate-500 mt-8 font-royal tracking-widest uppercase">
+            Press ESC or Click Close to Return
+        </div>
+    </div>
+
+    <script>
+        const gridContainer = document.getElementById('trekGridContainer');
+        const modal = document.getElementById('photoModal');
+        const closeModal = document.getElementById('closeModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalSub = document.getElementById('modalSub');
+        const modalGrid = document.getElementById('modalGrid');
+        const modalDriveBtn = document.getElementById('modalDriveBtn');
+
+        // Fetch JSON and loop to build up to 32 cards
+        async function loadTreks() {
+            try {
+                const response = await fetch('treks.json');
+                const trekData = await response.json();
+
+                // Loop 32 times
+                for (let i = 0; i < 31; i++) {
+                    // Loop around the array if treks.json has fewer than 32 entries yet
+                    const trek = trekData[i % trekData.length];
+
+                    const card = document.createElement('div');
+                    card.className = "bg-cardBg border border-goldAccent/20 overflow-hidden shadow-xl hover:border-goldAccent transition cursor-pointer group card-item";
+
+                    // Convert photos array to comma-separated string if needed
+                    const photoString = Array.isArray(trek.photos) ? trek.photos.join(',') : trek.photos;
+
+                    card.setAttribute('data-title', trek.title || '');
+                    card.setAttribute('data-location', trek.location || '');
+                    card.setAttribute('data-drive-folder', trek.driveFolder || '');
+                    card.setAttribute('data-photos', photoString || '');
+
+                    card.innerHTML = `
+                        <div class="relative overflow-hidden">
+                            <img src="${trek.coverImage}" alt="${trek.title}" class="h-52 w-full object-cover group-hover:scale-105 transition duration-500">
+                            <div class="absolute inset-0 bg-emeraldDark/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                                <span class="bg-goldAccent text-emeraldDark font-royal text-xs uppercase px-4 py-2 font-bold">
+                                    <i class="fa-solid fa-images mr-2"></i>View Photos
+                                </span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-xs font-royal text-goldAccent tracking-widest block mb-1">
+                                <i class="fa-solid fa-location-dot mr-1"></i>${trek.location}
+                            </span>
+                            <h3 class="font-royal text-xl text-white font-bold mb-4">${trek.title}</h3>
+                            <div class="grid grid-cols-2 gap-4 border-t border-b border-goldAccent/10 py-3 text-xs text-slate-300 mb-4">
+                                <div><span class="block text-slate-500 uppercase">Altitude</span> <i class="fa-solid fa-mountain text-goldAccent mr-1"></i>${trek.altitude}</div>
+                                <div><span class="block text-slate-500 uppercase">Difficulty</span> <i class="fa-solid fa-layer-group text-goldAccent mr-1"></i>${trek.difficulty}</div>
+                            </div>
+                            <p class="text-slate-400 text-sm leading-relaxed">${trek.description}</p>
+                        </div>
+                    `;
+
+                    // Add click event listener to activate modal popup
+                    card.addEventListener('click', () => openModal(card));
+                    gridContainer.appendChild(card);
+                }
+            } catch (error) {
+                console.error("Error fetching treks.json:", error);
+            }
+        }
+
+        function openModal(card) {
+            const title = card.getAttribute('data-title');
+            const location = card.getAttribute('data-location');
+            const driveFolder = card.getAttribute('data-drive-folder');
+            const rawPhotos = card.getAttribute('data-photos').split(',');
+
+            modalTitle.textContent = title;
+            modalSub.textContent = location;
+            modalGrid.innerHTML = '';
+
+            if (driveFolder) {
+                modalDriveBtn.href = driveFolder;
+                modalDriveBtn.classList.remove('hidden');
+            } else {
+                modalDriveBtn.classList.add('hidden');
+            }
+
+            rawPhotos.forEach(photoSrc => {
+                const cleanSrc = photoSrc.trim();
+                let finalUrl = cleanSrc;
+
+                if (!cleanSrc.startsWith('http') && cleanSrc !== '') {
+                    finalUrl = `https://lh3.googleusercontent.com/d/$${cleanSrc}`;
+                }
+
+                if (cleanSrc !== '') {
+                    const imgContainer = document.createElement('div');
+                    imgContainer.className = "bg-emeraldDark border border-goldAccent/20 overflow-hidden shadow-lg h-64 group relative";
+                    imgContainer.innerHTML = `
+                        <img src="${finalUrl}" alt="${title}" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy" onError="this.src='https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80'">
+                    `;
+                    modalGrid.appendChild(imgContainer);
+                }
+            });
+
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        const hideModal = () => {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = 'auto';
+        };
+
+        closeModal.addEventListener('click', hideModal);
+        window.addEventListener('keydown', (e) => { if (e.key === 'Escape') hideModal(); });
+
+        // Initialize page loading
+        loadTreks();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Alibaug",
+    "location": "Raigad district, Maharashtra",
+    "description": "Coastal town famed for Kolaba Fort, pristine sandy beaches, and water sports.",
+    "category": "Leisure & Coastal",
+    "driveFolder": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  {
+    "title": "Chhatrapati Sambhajinagar (Aurangabad)",
+    "location": "Maharashtra, India",
+    "description": "Historical hub home to UNESCO World Heritage Sites Ajanta and Ellora caves, and Bibi Ka Maqbara.",
+    "category": "Cultural & Historical",
+    "driveFolder": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  {
+    "title": "Harihareshwar & Shrivardhan",
+    "location": "Raigad district, Maharashtra",
+    "description": "Scenic coastal duo known for the revered Kalbhairav temple, rocky beach cliffs, and tranquil shorelines.",
+    "category": "Leisure & Pilgrimage",
+    "driveFolder": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  {
+    "title": "Rishikesh",
+    "location": "Uttarakhand, India",
+    "description": "Yoga capital of the world located on the Ganges, famous for river rafting, Lakshman Jhula, and evening Aarti.",
+    "category": "Adventure & Spiritual",
+    "driveFolder": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  {
+    "title": "Mussoorie",
+    "location": "Uttarakhand, India",
+    "description": "Queen of the Hills offering misty views of the Himalayas, Kempty Falls, and colonial-era Mall Road charm.",
+    "category": "Nature & Hill Station",
+    "driveFolder": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  {
+    "title": "Bhandardara",
+    "location": "Ahilyanagar district, Maharashtra",
+    "description": "Serene hill station renowned for Arthur Lake, Wilson Dam, Randha Falls, and monsoon firefly festivals.",
+    "category": "Nature & Getaways",
+    "driveFolder": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  {
+    "title": "Matheran",
+    "location": "Raigad district, Maharashtra",
+    "description": "Asia's only automobile-free hill station, known for reddish soil trails, toy train rides, and panoramic view points.",
+    "category": "Nature & Hill Station",
+    "driveFolder": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  {
+    "title": "Ujjain",
+    "location": "Madhya Pradesh, India",
+    "description": "Ancient holy city on the Kshipra River, famous for the Mahakaleshwar Jyotirlinga temple and Kumbh Mela.",
+    "category": "Spiritual & Historical",
+    "driveFolder": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  {
+    "title": "Omkareshwar",
+    "location": "Khandwa district, Madhya Pradesh",
+    "description": "Sacred island shaped like the Om symbol in the Narmada River, housing a prominent Jyotirlinga shrine.",
+    "category": "Spiritual & Cultural",
+    "driveFolder": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  {
+    "title": "Mahabaleshwar",
+    "location": "Satara district, Maharashtra",
+    "description": "Western Ghats hill station famous for strawberry farms, Venna Lake, and dramatic cliff-side viewpoints.",
+    "category": "Nature & Hill Station",
+    "driveFolder": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  {
+    "title": "Nashik",
+    "location": "Maharashtra, India",
+    "description": "Ancient pilgrimage town and wine capital of India, featuring Trimbakeshwar Jyotirlinga, Panchavati, and lush vineyards.",
+    "category": "Spiritual & Cultural",
+    "driveFolder": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  {
+    "title": "Konkan Coast",
+    "location": "Coastal Maharashtra & Goa",
+    "description": "Stunning coastal belt featuring coconut groves, historic sea forts, Alphonso mangoes, and pristine beaches.",
+    "category": "Leisure & Coastal",
+    "driveFolder": "",
+    "photos": [
+      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80"
+    ]
+  }
+]
